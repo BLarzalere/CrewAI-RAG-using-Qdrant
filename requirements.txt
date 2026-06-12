@@ -1,0 +1,8 @@
+crewai
+openai
+sentence-transformers
+qdrant-client
+pydantic
+streamlit
+python-dotenv
+docling

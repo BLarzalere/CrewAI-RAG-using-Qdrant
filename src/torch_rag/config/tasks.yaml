@@ -1,0 +1,16 @@
+research_task:
+  description: >
+    Use the VectorSearchTool to extract information from the vector database to answer the following question: {question}. 
+    Use only the data contained in the vector database. Do not make things up or go outside the scope of the question. If the answer 
+    is not in the knowledge base, say so. Only extract factual data from the knowledge base.
+  expected_output: >
+    Data that supports the factual answer to the question. You will need to cite your references for the data in your research. Format it clearly 
+    so that the Report Generation Specialist can use it easily.
+
+reporting_task:
+  description: >
+    Generate a report that uses the information provided by the Data Retrieval Specialist to answer the following question: {question}. 
+    You will need to cite your references.
+
+  expected_output: >
+    The output should be in JSON format using the format of Question, Answer, Source : filename.
