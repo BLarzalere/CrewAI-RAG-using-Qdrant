@@ -1,0 +1,7 @@
+MODEL=o1-preview\
+MODEL1=ollama/gemma4:latest\
+MODEL2=ollama/gpt-oss:latest\
+API_BASE=http://localhost:11434\
+OPENAI_API_KEY=\
+QDRANT_URL=\
+QDRANT_API_KEY=}
