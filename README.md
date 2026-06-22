@@ -1,2 +1,3 @@
-This code uses CrewAI as the agentic framework wrapped in a Streamlit GUI. Two agents are utilized for RAG retrieval – a data retrieval specialist and report generation specialist. A local LLM model running under Ollama is used to power the agents. The framework is configurable to use various local models or cloud LLM inference APIs.
-Documents are preprocessed using the docling library for parsing and chunking and then passed to the OpenAI text-embedding-3-small model to generate the embeddings. The embeddings vectors are then loaded into a Qdrant collectio
+This code uses CrewAI as the agentic framework wrapped in a Streamlit GUI. Two agents are utilized for RAG retrieval – a data retrieval specialist and report generation specialist. A local LLM model running under Ollama is used to power the agents. The framework is configurable to use various local models or cloud LLM inference APIs. Qdrant is used as the vector database.
+
+Documents are preprocessed using the docling library for parsing and chunking and then passed to the OpenAI text-embedding-3-small model to generate the embeddings. The embeddings vectors are then loaded into a Qdrant collection.
